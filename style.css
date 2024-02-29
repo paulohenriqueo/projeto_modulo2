@@ -1,10 +1,20 @@
 body{
     
 }
+
+input{
+    width: 95%;
+    height: 22px;
+    padding: 0.3rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 0;
+    margin: 10px; 
+}
 .container{
     background-color: #200D23;
     margin: auto;
-    width: 800px;
+    width: 600px;
     border-radius: 5px;
     overflow: hidden;
 }
@@ -15,6 +25,7 @@ body{
     box-shadow: 1px 3px 8px 1px rgba(0 0 0 1);
     border-radius: 5px;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 .header{
     padding: 2.5rem;
@@ -30,11 +41,16 @@ body{
 }
 .header-subtitle{
     color: #FFF;
+
     display: flex;
     justify-content: center;
-    font-size: 1.2rem;
+    flex-direction: column;
+    font-size: 1rem;
     font-weight: 500;
-    margin-bottom: 0.9rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    margin-top: 1rem;
 }
 .header-title2{
     color: #fff;
@@ -44,4 +60,5 @@ body{
     font-weight: 500;
     margin-bottom: 0.9rem;
 }
+
 
