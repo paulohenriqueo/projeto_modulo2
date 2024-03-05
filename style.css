@@ -14,7 +14,7 @@ body {
   
   .header {
     color: #fff;
-    margin: 20px;
+    margin: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -31,7 +31,7 @@ body {
   
   .container2 {
     background-image: linear-gradient(to top, #200d23, #631f6f);
-    margin: auto;
+    margin: 20px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -112,3 +112,32 @@ body {
     display: flex;
     justify-content: center;
   }
+  .footer{
+    padding: 2px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  @media screen and (max-width : 815px){
+   
+    .container{
+        width: 95%;
+    }
+    .container2{
+        width: 95%;
+    }
+    .collumn{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .header-title{
+        font-size: 24px;
+    }
+        .header input{
+          width: 80%;
+        }
+}
